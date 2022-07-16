@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>213B9283-7BCD-4BAD-91BC-F5C36258D79D</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>58D9907CCC610C466090320B2779663A6518A9AFB436253CF3D72BCF13FBA571</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>213B9283-7BCD-4BAD-91BC-F5C36258D79D_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>213B9283-7BCD-4BAD-91BC-F5C36258D79D_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-07-15T12:36:09.588</Modified>
+      <Modified>2022-07-16T23:30:54.999</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-07-15T12:29:04.418</Modified>
+      <Modified>2022-07-16T23:30:52.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp2.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp2.runtimeconfig.json">
       <PackagePath>MauiApp2.runtimeconfig.json</PackagePath>
-      <Modified>2022-07-12T18:27:12.311</Modified>
+      <Modified>2022-07-16T23:03:37.369</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp2.dll">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp2.dll">
       <PackagePath>MauiApp2.dll</PackagePath>
-      <Modified>2022-07-15T12:36:06.700</Modified>
+      <Modified>2022-07-16T23:30:50.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp2.exe</PackagePath>
-      <Modified>2022-07-15T12:36:06.742</Modified>
+      <Modified>2022-07-16T23:30:50.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egedu\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.5\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1089,9 +1089,9 @@
       <PackagePath>e_sqlite3.dll</PackagePath>
       <Modified>2020-08-17T14:38:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp2.deps.json">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp2.deps.json">
       <PackagePath>MauiApp2.deps.json</PackagePath>
-      <Modified>2022-07-15T12:36:09.250</Modified>
+      <Modified>2022-07-16T23:30:54.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.400\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1113,619 +1113,619 @@
       <PackagePath>Microsoft.Maui.Essentials.pri</PackagePath>
       <Modified>2022-06-07T18:42:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2022-07-08T10:23:19.868</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2022-07-08T10:23:33.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2022-07-08T10:23:33.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2022-07-08T10:23:33.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2022-07-08T10:23:33.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2022-07-08T10:23:33.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2022-07-08T10:23:33.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2022-07-08T10:23:33.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2022-07-15T12:29:00.106</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2022-07-15T12:29:00.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2022-07-15T12:29:00.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2022-07-15T12:29:00.443</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2022-07-15T12:29:00.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2022-07-15T12:29:00.584</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2022-07-15T12:29:00.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2022-07-15T12:29:00.125</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2022-07-15T12:29:00.130</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2022-07-15T12:29:00.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2022-07-15T12:29:00.145</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2022-07-15T12:29:00.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2022-07-15T12:29:00.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2022-07-15T12:29:00.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2022-07-15T12:29:00.256</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2022-07-15T12:29:00.283</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2022-07-15T12:29:00.184</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2022-07-15T12:29:00.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2022-07-15T12:29:00.196</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2022-07-15T12:29:00.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2022-07-15T12:29:00.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2022-07-15T12:29:00.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2022-07-15T12:29:00.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2022-07-15T12:29:00.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2022-07-15T12:29:00.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2022-07-15T12:29:00.177</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2022-07-15T12:29:00.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2022-07-15T12:29:00.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2022-07-15T12:29:00.319</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2022-07-15T12:29:00.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2022-07-15T12:29:00.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cloudiness.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cloudiness.scale-100.jpg">
       <PackagePath>cloudiness.scale-100.jpg</PackagePath>
       <Modified>2022-07-08T15:47:35.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cloudiness.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cloudiness.scale-100.png">
       <PackagePath>cloudiness.scale-100.png</PackagePath>
       <Modified>2022-07-12T18:24:45.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d113.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d113.scale-100.png">
       <PackagePath>d113.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d116.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d116.scale-100.png">
       <PackagePath>d116.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d119.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d119.scale-100.png">
       <PackagePath>d119.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d122.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d122.scale-100.png">
       <PackagePath>d122.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d143.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d143.scale-100.png">
       <PackagePath>d143.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d176.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d176.scale-100.png">
       <PackagePath>d176.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d179.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d179.scale-100.png">
       <PackagePath>d179.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d182.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d182.scale-100.png">
       <PackagePath>d182.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d185.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d185.scale-100.png">
       <PackagePath>d185.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d200.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d200.scale-100.png">
       <PackagePath>d200.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d227.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d227.scale-100.png">
       <PackagePath>d227.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d230.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d230.scale-100.png">
       <PackagePath>d230.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d248.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d248.scale-100.png">
       <PackagePath>d248.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d260.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d260.scale-100.png">
       <PackagePath>d260.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d263.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d263.scale-100.png">
       <PackagePath>d263.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d266.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d266.scale-100.png">
       <PackagePath>d266.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d281.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d281.scale-100.png">
       <PackagePath>d281.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d284.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d284.scale-100.png">
       <PackagePath>d284.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d293.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d293.scale-100.png">
       <PackagePath>d293.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d296.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d296.scale-100.png">
       <PackagePath>d296.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d299.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d299.scale-100.png">
       <PackagePath>d299.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d302.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d302.scale-100.png">
       <PackagePath>d302.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d305.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d305.scale-100.png">
       <PackagePath>d305.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d308.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d308.scale-100.png">
       <PackagePath>d308.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.244</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d311.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d311.scale-100.png">
       <PackagePath>d311.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.244</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d314.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d314.scale-100.png">
       <PackagePath>d314.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.244</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d317.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d317.scale-100.png">
       <PackagePath>d317.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.244</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d320.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d320.scale-100.png">
       <PackagePath>d320.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d323.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d323.scale-100.png">
       <PackagePath>d323.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d326.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d326.scale-100.png">
       <PackagePath>d326.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d329.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d329.scale-100.png">
       <PackagePath>d329.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d332.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d332.scale-100.png">
       <PackagePath>d332.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d335.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d335.scale-100.png">
       <PackagePath>d335.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d338.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d338.scale-100.png">
       <PackagePath>d338.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d350.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d350.scale-100.png">
       <PackagePath>d350.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d353.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d353.scale-100.png">
       <PackagePath>d353.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d356.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d356.scale-100.png">
       <PackagePath>d356.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d359.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d359.scale-100.png">
       <PackagePath>d359.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d362.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d362.scale-100.png">
       <PackagePath>d362.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.268</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d365.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d365.scale-100.png">
       <PackagePath>d365.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.268</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d368.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d368.scale-100.png">
       <PackagePath>d368.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.268</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d371.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d371.scale-100.png">
       <PackagePath>d371.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.268</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d374.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d374.scale-100.png">
       <PackagePath>d374.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.268</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d377.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d377.scale-100.png">
       <PackagePath>d377.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d386.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d386.scale-100.png">
       <PackagePath>d386.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d389.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d389.scale-100.png">
       <PackagePath>d389.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d392.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d392.scale-100.png">
       <PackagePath>d392.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d395.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\d395.scale-100.png">
       <PackagePath>d395.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2022-07-15T12:29:00.112</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2022-07-15T12:29:00.128</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2022-07-15T12:29:00.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2022-07-15T12:29:00.177</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2022-07-15T12:29:00.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity.scale-100.jpg">
       <PackagePath>humidity.scale-100.jpg</PackagePath>
       <Modified>2022-07-12T18:24:45.955</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity.scale-100.png">
       <PackagePath>humidity.scale-100.png</PackagePath>
       <Modified>2022-07-12T18:24:46.684</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n113.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n113.scale-100.png">
       <PackagePath>n113.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n116.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n116.scale-100.png">
       <PackagePath>n116.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n119.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n119.scale-100.png">
       <PackagePath>n119.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n122.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n122.scale-100.png">
       <PackagePath>n122.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n143.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n143.scale-100.png">
       <PackagePath>n143.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n176.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n176.scale-100.png">
       <PackagePath>n176.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n179.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n179.scale-100.png">
       <PackagePath>n179.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n182.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n182.scale-100.png">
       <PackagePath>n182.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n185.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n185.scale-100.png">
       <PackagePath>n185.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n200.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n200.scale-100.png">
       <PackagePath>n200.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n227.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n227.scale-100.png">
       <PackagePath>n227.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n230.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n230.scale-100.png">
       <PackagePath>n230.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n248.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n248.scale-100.png">
       <PackagePath>n248.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n260.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n260.scale-100.png">
       <PackagePath>n260.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n263.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n263.scale-100.png">
       <PackagePath>n263.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n266.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n266.scale-100.png">
       <PackagePath>n266.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n281.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n281.scale-100.png">
       <PackagePath>n281.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n284.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n284.scale-100.png">
       <PackagePath>n284.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n293.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n293.scale-100.png">
       <PackagePath>n293.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n296.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n296.scale-100.png">
       <PackagePath>n296.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n299.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n299.scale-100.png">
       <PackagePath>n299.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n302.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n302.scale-100.png">
       <PackagePath>n302.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n305.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n305.scale-100.png">
       <PackagePath>n305.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n308.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n308.scale-100.png">
       <PackagePath>n308.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n311.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n311.scale-100.png">
       <PackagePath>n311.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n314.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n314.scale-100.png">
       <PackagePath>n314.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n317.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n317.scale-100.png">
       <PackagePath>n317.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n320.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n320.scale-100.png">
       <PackagePath>n320.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n323.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n323.scale-100.png">
       <PackagePath>n323.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n326.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n326.scale-100.png">
       <PackagePath>n326.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n329.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n329.scale-100.png">
       <PackagePath>n329.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n332.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n332.scale-100.png">
       <PackagePath>n332.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n335.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n335.scale-100.png">
       <PackagePath>n335.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n338.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n338.scale-100.png">
       <PackagePath>n338.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n350.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n350.scale-100.png">
       <PackagePath>n350.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n353.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n353.scale-100.png">
       <PackagePath>n353.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n356.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n356.scale-100.png">
       <PackagePath>n356.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n359.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n359.scale-100.png">
       <PackagePath>n359.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n362.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n362.scale-100.png">
       <PackagePath>n362.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n365.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n365.scale-100.png">
       <PackagePath>n365.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n368.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n368.scale-100.png">
       <PackagePath>n368.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n371.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n371.scale-100.png">
       <PackagePath>n371.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n374.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n374.scale-100.png">
       <PackagePath>n374.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n377.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n377.scale-100.png">
       <PackagePath>n377.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n386.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n386.scale-100.png">
       <PackagePath>n386.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n389.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n389.scale-100.png">
       <PackagePath>n389.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n392.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n392.scale-100.png">
       <PackagePath>n392.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.357</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n395.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\n395.scale-100.png">
       <PackagePath>n395.scale-100.png</PackagePath>
       <Modified>2022-07-08T13:17:13.357</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\overlay.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\overlay.scale-100.jpg">
       <PackagePath>overlay.scale-100.jpg</PackagePath>
       <Modified>2022-07-08T15:47:37.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\overlay_blue.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\overlay_blue.scale-100.jpg">
       <PackagePath>overlay_blue.scale-100.jpg</PackagePath>
       <Modified>2022-07-12T18:24:45.955</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\overlay_grey.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\overlay_grey.scale-100.jpg">
       <PackagePath>overlay_grey.scale-100.jpg</PackagePath>
       <Modified>2022-07-12T18:24:45.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\precipitation.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\precipitation.scale-100.jpg">
       <PackagePath>precipitation.scale-100.jpg</PackagePath>
       <Modified>2022-07-12T18:24:45.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\precipitation.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\precipitation.scale-100.png">
       <PackagePath>precipitation.scale-100.png</PackagePath>
       <Modified>2022-07-12T18:24:46.692</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pressure.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pressure.scale-100.jpg">
       <PackagePath>pressure.scale-100.jpg</PackagePath>
       <Modified>2022-07-08T15:47:36.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pressure.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pressure.scale-100.png">
       <PackagePath>pressure.scale-100.png</PackagePath>
       <Modified>2022-07-12T18:24:45.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raise_agriculture_logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\raise_agriculture_logo.scale-100.png">
       <PackagePath>raise_agriculture_logo.scale-100.png</PackagePath>
       <Modified>2022-07-15T12:18:33.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind.scale-100.jpg">
       <PackagePath>wind.scale-100.jpg</PackagePath>
       <Modified>2022-07-08T15:47:35.910</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiApp2\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egedu\Documents\GitHub\MauiAppWeather\MauiApp2\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind.scale-100.png">
       <PackagePath>wind.scale-100.png</PackagePath>
       <Modified>2022-07-12T18:24:45.963</Modified>
     </AppxPackagedFile>

@@ -47614,11 +47614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egedu\\Documents\\GitHub\\MauiApp2\\MauiApp2\\MauiApp2.csproj",
+      "projectUniqueName": "C:\\Users\\egedu\\Documents\\GitHub\\MauiAppWeather\\MauiApp2\\MauiApp2.csproj",
       "projectName": "MauiApp2",
-      "projectPath": "C:\\Users\\egedu\\Documents\\GitHub\\MauiApp2\\MauiApp2\\MauiApp2.csproj",
+      "projectPath": "C:\\Users\\egedu\\Documents\\GitHub\\MauiAppWeather\\MauiApp2\\MauiApp2.csproj",
       "packagesPath": "C:\\Users\\egedu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egedu\\Documents\\GitHub\\MauiApp2\\MauiApp2\\obj\\",
+      "outputPath": "C:\\Users\\egedu\\Documents\\GitHub\\MauiAppWeather\\MauiApp2\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

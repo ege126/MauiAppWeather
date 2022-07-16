@@ -370,7 +370,6 @@
                                 Padding="60"/>
                                 <Image
                                 x:Name="_1dayLaterImage"
-                                Source= "C:\Users\cosku\OneDrive\Masaüstü\Raise Agriculture\MauiApp2\MauiApp2\Images\cloudiness.jpg" 
                                 HeightRequest="65" 
                                 WidthRequest="65" 
                                 VerticalOptions="StartAndExpand" />
@@ -422,7 +421,6 @@
                                 </Label>
                                 <Image 
                                 x:Name="_2dayLaterImage"
-                                Source= "C:\Users\cosku\OneDrive\Masaüstü\Raise Agriculture\MauiApp2\MauiApp2\Images\cloudiness.jpg"
                                 HeightRequest="65"
                                 WidthRequest="65" 
                                 VerticalOptions="StartAndExpand" />
@@ -468,7 +466,6 @@
                                 </Label>
                                 <Image 
                                 x:Name="_3dayLaterImage"
-                                Source= "C:\Users\cosku\OneDrive\Masaüstü\Raise Agriculture\MauiApp2\MauiApp2\Images\cloudiness.jpg" 
                                 HeightRequest="65" 
                                 WidthRequest="65" 
                                 VerticalOptions="StartAndExpand" />

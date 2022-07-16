@@ -14,27 +14,33 @@ public partial class LoginPage : ContentPage
 
     private async void LoginButtonClicked(object sender, EventArgs e)
     {
-        if (string.IsNullOrWhiteSpace(emailEntry.Text)
-           || string.IsNullOrWhiteSpace(passwordEntry.Text))
+        try
         {
-            warningLabelLogin.Text = "Please complete the form";
-            return;
+                if (string.IsNullOrWhiteSpace(emailEntry.Text)
+               || string.IsNullOrWhiteSpace(passwordEntry.Text))
+            {
+                warningLabelLogin.Text = "Please complete the form";
+                return;
+            }
+            //checkEmailExists- method returns null if there is no person with the given E-mail
+            if (await App.Database.checkEmailExists(emailEntry.Text) == null)
+            {
+                warningLabelLogin.Text = "There is no person with the given E-mail";
+                return;
+            }
+            //returns null if E-mail and password do not match
+            if (await App.Database.check_EmailPasswordPair_Exists(emailEntry.Text, passwordEntry.Text) == null)
+            {
+                warningLabelLogin.Text = "The given E-mail and the password do not match";
+                return;
+            }
         }
-        //checkEmailExists- method returns null if there is no person with the given E-mail
-        if (await App.Database.checkEmailExists(emailEntry.Text) == null)
+        catch(SQLite.SQLiteException SQLex)
         {
-            warningLabelLogin.Text = "There is no person with the given E-mail";
-            return;
+            await DisplayAlert("SQL exception", SQLex.Message, "OK");
         }
-        //returns null if E-mail and password do not match
-        if (await App.Database.check_EmailPasswordPair_Exists(emailEntry.Text, passwordEntry.Text) == null)
-        {
-            warningLabelLogin.Text = "The given E-mail and the password do not match";
-            return;
-        }
-        await Navigation.PushAsync(new NaviPage());
-        emailEntry.Text = passwordEntry.Text = warningLabelLogin.Text = String.Empty;
-        
+         await Navigation.PushAsync(new NaviPage());
+         emailEntry.Text = passwordEntry.Text = warningLabelLogin.Text = String.Empty;
     }
 
     private async void registerButtonClicked(object sender, EventArgs e)

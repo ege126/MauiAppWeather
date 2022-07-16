@@ -8,8 +8,8 @@
             VerticalOptions="Center"
             HorizontalOptions="Center">
             <Image
-                Source="raise_agriculture_logo.png"
-                    SemanticProperties.Description="RaiseAgricultureLogo"
+                Source=""
+                SemanticProperties.Description =" MainLogo"
                     HeightRequest="175"
                     HorizontalOptions="Center"
                     Margin="0,0,0,40"/>

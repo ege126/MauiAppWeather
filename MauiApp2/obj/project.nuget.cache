@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YY0groQNL52cMWQkfoSMSX1ohBUQWQ1fJ+XEgYFeExBy6F9mpIbgG+wtVdPRh3MsyU/zdgXTtSiIgeDlASalMg==",
+  "dgSpecHash": "zFgf1NX5BajaFKCywggVH+ZrVCuZr3Qm0XnCxigic3xCMAuFZwz4cB4o15yDANY2swwU5Rcrq+G4Qo5JhrBxIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\egedu\\Documents\\GitHub\\MauiApp2\\MauiApp2\\MauiApp2.csproj",
+  "projectFilePath": "C:\\Users\\egedu\\Documents\\GitHub\\MauiAppWeather\\MauiApp2\\MauiApp2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\egedu\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\egedu\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

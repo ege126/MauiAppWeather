@@ -18,14 +18,14 @@ public partial class ForgotPage : ContentPage
             sc.Port = 587;
             sc.Host = "smtp.outlook.com";
             sc.EnableSsl = true;
-            sc.Credentials = new NetworkCredential("RaiseAgriculture@hotmail.com", "RSAGRCLTR1");
+            sc.Credentials = new NetworkCredential("mauiAppWeather_publicPassword@outlook.de", "mauiAppPassword1*");
 
             MailMessage mail = new MailMessage();
-            mail.From = new MailAddress("RaiseAgriculture@hotmail.com", "Raise Agriculture");
+            mail.From = new MailAddress("mauiAppWeather_publicPassword@outlook.de", "Weather App");
             mail.To.Add(forgotPageEmailEntry.Text);
             mail.Subject = "Reset Password";
             mail.Body = "Hello,\nYou sent us a request to reset your password. By clicking the following link you " +
-                "can reset your password:\nhttps://raiseagri.com \nKind regards, Raise Agriculture"; 
+                "can reset your password:\nhttps://docs.microsoft.com/en-us/dotnet/maui/what-is-maui \nKind regards, your Weather App"; 
             sc.Send(mail);
 
             forgotPageEmailEntry.Text = String.Empty;

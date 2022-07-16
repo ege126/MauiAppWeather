@@ -12,7 +12,7 @@ public partial class App : Application
             if (database == null)
             {
                 database = new DataBase(Path.Combine(Environment.GetFolderPath
-                    (Environment.SpecialFolder.LocalApplicationData), "raiseDatabase"));
+                    (Environment.SpecialFolder.LocalApplicationData), "customerDatabase"));
             }
             return database;
         }

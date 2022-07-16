@@ -13,10 +13,11 @@
                 VerticalOptions="Center">
 
                 <Image
-                Source="raise_agriculture_logo.png"
-                HeightRequest="175"
-                HorizontalOptions="Start"
-                Margin="230,80,0,35"/>
+                    Source=""
+                    SemanticProperties.Description="MainLogo"
+                    HeightRequest="175"
+                    HorizontalOptions="Start"
+                    Margin="230,80,0,35"/>
                 <HorizontalStackLayout>
 
                     <Label 

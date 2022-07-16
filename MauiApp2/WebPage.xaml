@@ -4,5 +4,5 @@
              x:Class="MauiApp2.WebPage"
              Title="WebPage">
     <WebView
-        Source="https://raiseagri.com/"/>
+        Source="https://www.windy.com/"/>
 </ContentPage>
