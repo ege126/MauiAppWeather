@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.WeatherPage" 
+             xmlns:local="clr-namespace:MauiApp2"
+             BackgroundColor="{DynamicResource SecondaryColor}"
+             >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="Small" />
+                <Setter Property="TextColor" Value="Gray" />
+            </Style>
+            <Style x:Key="labelResultStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="Margin" Value="10,0,0,0" />
+                
+            </Style>
+
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView
+        BackgroundColor="LightYellow">
+        <Grid VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Image
+                Aspect="Fill"
+                HeightRequest="250"
+                Source="overlay.jpg"
+                VerticalOptions="StartAndExpand" />
+
+            <StackLayout
+                HorizontalOptions="Center"
+                Orientation="Vertical"
+                VerticalOptions="Start"
+                Margin="0,20,0,0">
+                <StackLayout Orientation="Horizontal">
+                    <Label
+                        x:Name="locationLabel"
+                        FontSize="40"
+                        Text="City, "
+                        FontAttributes="Bold"
+                        TextColor="White"
+                        VerticalOptions="Center" />
+                    <Label
+                        x:Name="dayLabel"
+                        FontSize="30"
+                        Text="Day"
+                        TextColor="White"
+                        VerticalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout
+                Margin="0,20,0,0"
+                HorizontalOptions="Center"
+                Orientation="Vertical"
+                VerticalOptions="Center">
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                    <Image
+                        x:Name="mainWeatherImage"
+                        HeightRequest="110"
+                        
+                        VerticalOptions="Center"
+                        Margin="0,10,0,0"
+                        />
+                    <Label
+                        x:Name="temperatureOfTodayLabel"
+                        FontAttributes="Bold"
+                        FontSize="60"
+                        Text=""
+                        TextColor="White"
+                        VerticalOptions="Center" />
+                    <Label
+                        FontSize="34"
+                        Text="°C"
+                        TextColor="White"
+                        VerticalOptions="Center" />
+                </StackLayout>
+
+                <Label
+                    x:Name="exactDateWithTimeLabel"
+                    Margin="20,0,0,0"
+                    FontSize="18"
+                    FontAttributes="Italic"
+                    HorizontalOptions="Center"
+                    Text="June 15,10:00AM"
+                    TextColor="White" />
+            </StackLayout>
+
+            <Frame
+                Grid.Row="1"
+                Margin="20,-40,20,0"
+                Padding="0"
+                CornerRadius="10"
+                HasShadow="True"
+                HeightRequest="130"
+                VerticalOptions="Start">
+                <Grid
+                    Margin="0,25,0,0"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout
+                        Grid.Column="0"
+                        HorizontalOptions="CenterAndExpand"
+                        Orientation="Vertical"
+                        Spacing="0"
+                        VerticalOptions="StartAndExpand"
+                        MinimumHeightRequest="500">
+                        <Image 
+                        Source="humidity.jpg" 
+                        MaximumHeightRequest="40"
+                        Margin="0,0,0,0"
+                        VerticalOptions="Start"/>
+                        <StackLayout HorizontalOptions="CenterAndExpand" Spacing="7">
+                            <Label
+                                x:Name="mainHumidityLabel"
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                HorizontalOptions="Center"
+                                Text="Humidity is:"
+                                TextColor="Black" />
+                            <Label
+                                FontSize="11"
+                                HorizontalOptions="Center"
+                                Text="Humidity"
+                                TextColor="#7D7D7D" />
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout
+                        Grid.Column="1"
+                        HorizontalOptions="CenterAndExpand"
+                        Orientation="Vertical"
+                        Spacing="0"
+                        VerticalOptions="Start"
+                        MinimumHeightRequest="500">
+                        <Image 
+                            Source="wind.png" 
+                            MaximumHeightRequest="40"
+                            Margin="0,0,0,0"
+                            VerticalOptions="Start"/>
+                        <StackLayout HorizontalOptions="CenterAndExpand" Spacing="7">
+                            <Label
+                                x:Name="mainWindLabel"
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                HorizontalOptions="Center"
+                                Text="Wind is: "
+                                TextColor="Black" />
+                            <Label
+                                FontSize="11"
+                                HorizontalOptions="Center"
+                                Text="Wind(in kmH)"
+                                TextColor="#7D7D7D" />
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout
+                        Grid.Column="2"
+                        HorizontalOptions="CenterAndExpand"
+                        Orientation="Vertical"
+                        Spacing="0"
+                        VerticalOptions="Start"
+                        MinimumHeightRequest="500">
+                        <Image 
+                            Source="pressure.png"
+                            MaximumHeightRequest="40"
+                            Margin="0,0,0,0"
+                            VerticalOptions="Start"/>
+                        <StackLayout HorizontalOptions="CenterAndExpand" Spacing="7">
+                            <Label
+                                x:Name="mainPressureLabel"
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                HorizontalOptions="Center"
+                                Text="pressure is: "
+                                TextColor="Black" />
+                            <Label
+                                FontSize="11"
+                                HorizontalOptions="Center"
+                                Text="Pressure(in Bar)"
+                                TextColor="#7D7D7D" />
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout
+                        Grid.Column="3"
+                        HorizontalOptions="CenterAndExpand"
+                        Orientation="Vertical"
+                        Spacing="0"
+                        VerticalOptions="Start"
+                        MinimumHeightRequest="500">
+                        <Image 
+                            Source="cloudiness.png" 
+                            MaximumHeightRequest="35"
+                            Margin="0,5,0,0"
+                            VerticalOptions="Start"/>
+                        <StackLayout HorizontalOptions="CenterAndExpand" Spacing="7">
+                            <Label
+                                x:Name="mainCloudinessLabel"
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                HorizontalOptions="Center"
+                                Text="cloudiness is: "
+                                TextColor="Black" />
+                            <Label
+                                FontSize="11"
+                                HorizontalOptions="Center"
+                                Text="Cloudiness"
+                                TextColor="#7D7D7D" />
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout
+                        Grid.Column="4"
+                        HorizontalOptions="CenterAndExpand"
+                        Orientation="Vertical"
+                        Spacing="0"
+                        VerticalOptions="Start"
+                        MinimumHeightRequest="500">
+                        <Image 
+                            Source="precipitation.jpg" 
+                            MaximumHeightRequest="35"
+                            Margin="0,5,0,0"
+                            VerticalOptions="Start"/>
+                        <StackLayout HorizontalOptions="CenterAndExpand" Spacing="7">
+                            <Label
+                                x:Name="mainPrecipitationLabel"
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                HorizontalOptions="Center"
+                                Text="precipitation is: "
+                                TextColor="Black" />
+                            <Label
+                                FontSize="11"
+                                HorizontalOptions="Center"
+                                Text="Precipitation(in mm)"
+                                TextColor="#7D7D7D" />
+                        </StackLayout>
+                    </StackLayout>
+
+                </Grid>
+            </Frame>
+            <StackLayout
+                Grid.Row="2">
+                <StackLayout
+                    x:Name="gridRow2Stacklayout"
+                    BackgroundColor="LightYellow"
+                    MinimumHeightRequest="100"
+                    
+                    >
+                    <StackLayout
+                        x:Name="hoursLabelStacklayout"
+                        Orientation="Vertical"
+                        BackgroundColor="LightYellow">
+                        <Label
+                            x:Name="eightHoursLaterLabel"
+                            Text="1h                    2h                    3h                    4h                    5h
+                     6h                     7h                    8h "
+                            HorizontalOptions="Center"
+                            TextColor="Black"
+                            FontAttributes="Bold">
+
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout
+                        x:Name="hourlyImagesStacklayout"
+                        Orientation="Horizontal"
+                        BackgroundColor="LightYellow"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Start"
+                        Padding="55"
+                        MaximumHeightRequest="200"
+                        >
+                        <Image
+                            x:Name="ImageHourlyForecast1h"
+                            MinimumWidthRequest="65"
+                            HorizontalOptions="Center"/>
+
+
+                        <Image
+                            x:Name="ImageHourlyForecast2h"
+                            MinimumWidthRequest="65"
+                            HorizontalOptions="Center"/>
+
+
+                        <Image
+                            x:Name="ImageHourlyForecast3h"
+                            MinimumWidthRequest="65"
+                            HorizontalOptions="Center"/>
+
+
+                        <Image 
+                            x:Name="ImageHourlyForecast4h"
+                            MinimumWidthRequest="65"
+                            HorizontalOptions="Center"/>
+
+
+                        <Image 
+                            x:Name="ImageHourlyForecast5h"
+                            MinimumWidthRequest="65"
+                            HorizontalOptions="Center"/>
+
+
+                        <Image 
+                            x:Name="ImageHourlyForecast6h"
+                            MinimumWidthRequest="65"
+                            HorizontalOptions="Center"/>
+
+
+                        <Image 
+                            x:Name="ImageHourlyForecast7h"
+                            MinimumWidthRequest="65"
+                            HorizontalOptions="Center"/>
+
+                        <Image 
+                            x:Name="ImageHourlyForecast8h"
+                            MinimumWidthRequest="65"
+                            HorizontalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout
+                    
+                    Margin="0,-20,0,60"
+                    Orientation="Horizontal"
+                    Spacing="20"
+                    HorizontalOptions="CenterAndExpand">
+
+                    <StackLayout
+                        Grid.Column="1"
+                        MinimumWidthRequest="200"
+                        MaximumWidthRequest="200"
+                        Orientation="Horizontal"
+                        Margin="0,0,10,30">
+                        <StackLayout
+                            Orientation="Vertical">
+                            <Grid>
+                                <Label
+                                x:Name="_1DayLater_day_temp_minTemp_Label"
+                                BackgroundColor="LightYellow"
+                                Text="Mon&#x0a;66°    66°"
+                                HorizontalTextAlignment="Center"
+                                FontSize="12"
+                                TextColor="Black"
+                                MinimumWidthRequest="100"
+                                MinimumHeightRequest="100"
+                                MaximumHeightRequest="100"
+                                Padding="60"/>
+                                <Image
+                                x:Name="_1dayLaterImage"
+                                Source= "C:\Users\cosku\OneDrive\Masaüstü\Raise Agriculture\MauiApp2\MauiApp2\Images\cloudiness.jpg" 
+                                HeightRequest="65" 
+                                WidthRequest="65" 
+                                VerticalOptions="StartAndExpand" />
+
+                            </Grid>
+
+                        </StackLayout>
+
+                        <StackLayout
+                            Orientation="Vertical">
+                            <Label
+                            x:Name="_1DayLater_day_humi_peri_wind_Label"
+                            BackgroundColor="LightYellow"
+                            Text="Humidity: 76%&#x0a;Precipitation: 6%&#x0a;Wind: 3 km/h"
+                            FontSize="12"
+                            TextColor="Black"
+                            Margin="-50,30,0,0"
+                            MinimumWidthRequest="100"
+                            MinimumHeightRequest="100">
+
+                            </Label>
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                    <StackLayout
+                    Grid.Column="2"
+                    MinimumWidthRequest="200"
+                    MaximumWidthRequest="200"
+                    Margin="0,0,10,30"
+                    Orientation="Horizontal">
+
+                        <StackLayout
+                            Orientation="Vertical">
+                            <Grid>
+                                <Label
+                                 x:Name="_2DayLater_day_temp_minTemp_Label"
+                                 BackgroundColor="LightYellow"
+                                 Text="Mon&#x0a;66°    66°"
+                                 HorizontalTextAlignment="Center"
+                                 FontSize="12"
+                                 TextColor="Black"
+                                 MinimumWidthRequest="100"
+                                 MinimumHeightRequest="100"
+                                 MaximumHeightRequest="100"
+                                 Padding="60" >
+
+                                </Label>
+                                <Image 
+                                x:Name="_2dayLaterImage"
+                                Source= "C:\Users\cosku\OneDrive\Masaüstü\Raise Agriculture\MauiApp2\MauiApp2\Images\cloudiness.jpg"
+                                HeightRequest="65"
+                                WidthRequest="65" 
+                                VerticalOptions="StartAndExpand" />
+
+                            </Grid>
+
+                        </StackLayout>
+                        <StackLayout
+                                Orientation="Vertical">
+                            <Label
+                                x:Name="_2DayLater_day_humi_peri_wind_Label"
+                                BackgroundColor="LightYellow"
+                                Text="Humidity: 76%&#x0a;Precipitation: 6%&#x0a;Wind: 3 km/h"
+                                FontSize="12"
+                                TextColor="Black"
+                                Margin="-50,30,0,0"
+                                MinimumWidthRequest="100"
+                                MinimumHeightRequest="100"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout
+                        Grid.Column="3"
+                        MinimumWidthRequest="200"
+                        MaximumWidthRequest="200"
+                        Margin="0,0,10,30"
+                        Orientation="Horizontal">
+                        <StackLayout
+                            Orientation="Vertical">
+                            <Grid>
+                                <Label
+                                x:Name="_3DayLater_day_temp_minTemp_Label"
+                                BackgroundColor="LightYellow"
+                                Text="Mon&#x0a;66°    66°"
+                                HorizontalTextAlignment="Center"
+                                FontSize="12"
+                                TextColor="Black"
+                                MinimumWidthRequest="100"
+                                MinimumHeightRequest="100"
+                                MaximumHeightRequest="100"
+                                Padding="60" >
+
+                                </Label>
+                                <Image 
+                                x:Name="_3dayLaterImage"
+                                Source= "C:\Users\cosku\OneDrive\Masaüstü\Raise Agriculture\MauiApp2\MauiApp2\Images\cloudiness.jpg" 
+                                HeightRequest="65" 
+                                WidthRequest="65" 
+                                VerticalOptions="StartAndExpand" />
+
+                            </Grid>
+
+                        </StackLayout>
+                        <StackLayout
+                            Orientation="Vertical">
+                            <Label
+                            x:Name="_3DayLater_day_humi_peri_wind_Label"
+                            BackgroundColor="LightYellow"
+                            Text="Humidity: 76%&#x0a;Precipitation: 6%&#x0a;Wind: 3 km/h"
+                            FontSize="12"
+                            TextColor="Black"
+                            Margin="-50,30,0,0"
+                            MinimumWidthRequest="100"
+                            MinimumHeightRequest="100">
+
+                            </Label>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

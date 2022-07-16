@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp2"
+             x:DataType="local:UserDatabase.Person"
+             x:Class="MauiApp2.LoginPage">
+
+    <ScrollView>
+        <HorizontalStackLayout
+            HorizontalOptions="Center">
+
+            <VerticalStackLayout 
+                Spacing="10" 
+                Padding="30,0" 
+                VerticalOptions="Center">
+                <Image
+                    Source="raise_agriculture_logo.png"
+                    SemanticProperties.Description="RaiseAgricultureLogo"
+                    HeightRequest="175"
+                    HorizontalOptions="Center"
+                    Margin="0,0,0,40"/>
+
+
+                <Label 
+                    Text="E-mail"
+                    FontSize="18"
+                    HorizontalOptions="Start" />
+
+                <Entry x:Name="emailEntry"
+                       WidthRequest="500"
+                       HorizontalOptions="Start"></Entry>
+
+                <Label 
+                    Text="Password"
+                    FontSize="18"
+                    HorizontalOptions="Start" />
+
+                <Entry x:Name="passwordEntry"
+                       WidthRequest="500"
+                       HorizontalOptions="Start"></Entry>
+
+                <StackLayout Orientation="Horizontal">
+                    <Button 
+                        x:Name="forgotButton"
+                        Text="forgot your password?"
+                        SemanticProperties.Hint="should lead to password resetting page"
+                        Clicked="forgotButtonClicked"
+                        FontSize="12"
+                        HorizontalOptions="Start"
+                        TextColor="Black"
+                        MaximumHeightRequest="40"
+                        BackgroundColor="White"
+                        BorderColor="SaddleBrown"
+                        
+                        
+                        Margin="0,0,70,0"/>
+
+                    <Label 
+                        Text="do not have an account?"
+                        FontSize="12"
+                        HorizontalOptions="Start"
+                        Margin="140,10,0,0"
+                        />
+                </StackLayout>
+
+
+
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Button 
+                        x:Name="loginButton"
+                        Text="login"
+                        SemanticProperties.Hint="logs in"
+                        Clicked="LoginButtonClicked"
+                        Margin="0,0,30,20"
+                        FontSize="15"
+                        BackgroundColor="White"
+                        TextColor="Black"
+                        BorderColor="Green"
+                        HorizontalOptions= "Start"/>
+                    <Label
+                        x:Name="warningLabelLogin"
+                        Text=""
+                        TextColor="Red"
+                        FontSize="12"
+                        MinimumWidthRequest="290"
+                        Margin="0,15,0,0"
+                    />
+                    <Button 
+                        x:Name="registerButton"
+                        Text="register"
+                        SemanticProperties.Hint="leads to register page, registers if E-mail doesnt exist"
+                        Clicked="registerButtonClicked"
+                        Margin="30,0,0,20"
+                        FontSize="15"
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        HorizontalOptions= "End"/>
+
+                </StackLayout>
+                
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+    </ScrollView>
+</ContentPage>

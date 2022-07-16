@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.ForgotPage">
+             
+    <ScrollView>
+        <VerticalStackLayout 
+            VerticalOptions="Center"
+            HorizontalOptions="Center">
+            <Image
+                Source="raise_agriculture_logo.png"
+                    SemanticProperties.Description="RaiseAgricultureLogo"
+                    HeightRequest="175"
+                    HorizontalOptions="Center"
+                    Margin="0,0,0,40"/>
+
+            <Label
+                Text="Reset Password"
+                FontSize="36"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"/>
+            <Label
+                Text="Please enter the E-mail address, which you registered with. We are going to send 
+an E-mail with a link. Please click on the link and follow the instructions."
+                MaximumWidthRequest="500"
+                FontSize="18"
+                FontAttributes="Italic"
+                Margin="0,20,0,0"/>
+            <Label
+                Text="E-mail"
+                FontSize="18"
+                Margin="0,50,0,0"/>
+            <Entry
+                x:Name="forgotPageEmailEntry"
+                MinimumWidthRequest="500"
+                FontSize="18"
+                />
+            <Button 
+                x:Name="resetPasswordButton"
+                Text="reset my password"
+                MaximumWidthRequest="250"
+                FontSize="15"
+                Clicked="resetPasswordButtonClicked"
+                TextColor="White"
+                BackgroundColor="SaddleBrown"
+                Margin="0,20,0,20"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
